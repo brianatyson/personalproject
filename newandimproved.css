@@ -1,8 +1,11 @@
 .container {
-  margin: 0 auto;
-  margin-top: 225px;
   text-align: center;
   font-family: "big caslon", sans-serif;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*headline and navigation*/
@@ -43,27 +46,33 @@ ul.nav li a:hover {
   color: #8B0000;
 }
 
-
 /* mini faces*/
-
 .getit img {
   float:left;
   margin: 50px 50px 0 150px;
+  max-width: 100%;
+  height: auto;
 }
 
 .dave img {
   float: left;
   margin: 50px 50px 0 150px;
+  max-width: 100%;
+  height: auto;
 }
 
 .hilarious img {
   float: right;
   margin: 50px 150px 0 50px;
+  max-width: 100%;
+  height: auto;
 }
 
 .dog img {
   float: right;
   margin: 50px 150px 0 50px;
+  max-width: 100%;
+  height: auto;
 }
 
 /*Small Town Big City */
@@ -85,6 +94,10 @@ ul.nav li a:hover {
   margin: -40px 0 5px 0;
 }
 
+.right img:hover {
+  opacity: 0.5;
+}
+
 .needsleep {
   font-family: 'big caslon', sans-serif;
   font-size: 20px;
@@ -96,6 +109,10 @@ ul.nav li a:hover {
 
 #third {
   font-family: 'big caslon' sans-serif;
+}
+
+h3 {
+  text-shadow: 0 0 5px #8b0000;
 }
 
 #third h3 {
@@ -165,7 +182,6 @@ div.desc {
   }
 }
 
-
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
@@ -179,7 +195,7 @@ div.desc {
 }
 
 /*third page */
-.container {
+#second .container {
   margin-top: 500px;
 }
 
@@ -187,7 +203,7 @@ div.desc {
   float:right;
   margin-top: 50px;
 }
-.container h3 {
+#second .container h3 {
   font-family: 'big caslon' sans-serif;
   font-size: 60px;
   font-style: italic;
@@ -196,7 +212,7 @@ div.desc {
   margin: 0 30px;
 }
 
-.container p {
+#second .container p {
   font-family: 'big caslon', sans-serif;
   font-size: 20px;
   font-style: italic;
@@ -258,9 +274,3 @@ div.social ul li {
   position: relative;
     left: 465px;
 }
-
-/*   float:left;
-  margin: 10px 10px 0 560px;
-
-  float: right;
-  margin: 10px 0px 0 10px; */
