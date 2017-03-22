@@ -179,33 +179,36 @@ div.desc {
 }
 
 /*third page */
-.slider  {
-  float:right;
-  margin-top: -200px;
+.container {
+  margin-top: 500px;
 }
 
-.work h3 {
+.slider  {
+  float:right;
+  margin-top: 50px;
+}
+.container h3 {
   font-family: 'big caslon' sans-serif;
   font-size: 60px;
   font-style: italic;
   text-transform: uppercase;
-  text-align: center;;
+  text-align: center;
   margin: 0 30px;
-  margin-top: 500px;
 }
 
-.work p {
+.container p {
   font-family: 'big caslon', sans-serif;
   font-size: 20px;
   font-style: italic;
-  text-align: center;;
+  text-align: center;
   margin: 25px 30px 0 30px;
   line-height: 35px;
 }
 
+/*Back to Top*/
 #endlink{
   text-align: center;
-  margin-top: 180px;
+  margin-top: 75px;
 }
 
 #endlink a:link, a:visited {
@@ -245,13 +248,19 @@ div.social ul li {
 .fa-facebook {
   background: #transparent;
   color: #8B0000;
-  float:left;
-  margin: 10px 10px 0 560px;
+  position: relative;
+    left: 445px;
 }
 
 .fa-instagram {
   background: #transparent;
   color: #8B0000;
-  float: right;
-  margin: 10px 0px 0 10px;
+  position: relative;
+    left: 465px;
 }
+
+/*   float:left;
+  margin: 10px 10px 0 560px;
+
+  float: right;
+  margin: 10px 0px 0 10px; */
