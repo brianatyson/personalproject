@@ -148,17 +148,27 @@ div.desc {
   margin-top: 10px;
 }
 
+/*
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
+*/
+@@media all and (max-width: 943px) and (min-width: 794px) {
+  .responsive  {
+    padding: 0 6px;
+    float:left;
+    width: 24.99999%;
+    margin-top: 10px;
+  }
+}
+
 
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
-
   }
 }
 
@@ -166,6 +176,31 @@ div.desc {
   content: "";
   display: table;
   clear:both;
+}
+
+/*third page */
+.slider  {
+  float:right;
+  margin-top: -200px;
+}
+
+.work h3 {
+  font-family: 'big caslon' sans-serif;
+  font-size: 60px;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;;
+  margin: 0 30px;
+  margin-top: 500px;
+}
+
+.work p {
+  font-family: 'big caslon', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;;
+  margin: 25px 30px 0 30px;
+  line-height: 35px;
 }
 
 #endlink{

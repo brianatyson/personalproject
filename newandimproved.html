@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="newandimproved.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>B R I A N A T Y S O N</title>
   </head>
 
@@ -27,8 +28,7 @@
               <li><a href="#one">Small Town to Big City<a/></li>
               <li><a href="#third">From Here to There</a></li>
               <li><a href="#second">Philadelphia Freedom<a/></li>
-              <li><a href="#fourth">Growth</a></li>
-              <li><a href ="#fifth">For Now, For Then</a></li>
+
             </ul>
           </nav>
         </div>
@@ -105,19 +105,19 @@
 
       <div class="responsive">
         <div class="gallery">
-          <a target="_blank" href="Mexico.jpg">
-            <img src="mexico.jpg" width="200px" height="200px">
+          <a target="_blank" href="miami.png">
+            <img src="miami.png" width="200px" height="200px">
           </a>
-          <div class="desc">First Passport stamp! Cancun, Mexico</div>
+          <div class="desc">Birthday Celebration in Miami</div>
         </div>
       </div>
 
       <div class="responsive">
         <div class="gallery">
-          <a target="_blank" href="miami.png">
-            <img src="miami.png" width="200px" height="200px">
+          <a target="_blank" href="Mexico.jpg">
+            <img src="mexico.jpg" width="200px" height="200px">
           </a>
-          <div class="desc">Birthday Celebration in Miami</div>
+          <div class="desc">First Passport stamp! Cancun, Mexico</div>
         </div>
       </div>
 
@@ -142,6 +142,41 @@
 
     <div class="clearfix"></div>
 
+
+    <div class="work">
+      <h3>Philadelphia Freedom</h3>
+      <p>Since saying 'See Ya Later' to my hometown in 2010, living in Philadelphia has brought me an entirely new life, filled with so many new adventures and people.</p>
+      <p>Life has been filled with Sunday's in the fall spent with friends watching football, to dancing and feasting on late night eats on Saturday night's being followed by painful workouts on Sunday mornings. I've found lately that planning for my future and spending quality time on my couch with netflix has provided some much needed balance!</p>
+      <div class="slider" style="max-width:500px">
+        <img class="mySlides" src="l8r.jpg" style="width:100%">
+        <img class="mySlides" src="foodcoma.jpg" style="width:100%">
+        <img class="mySlides" src="netflix.png" style="width:100%">
+        <img class="mySlides" src="sportsfan.jpg" style="width:100%">
+        <img class="mySlides" src="saturday.jpg" style="width:100%">
+        <img class="mySlides" src="shopping.jpg" style="width:100%">
+        <img class="mySlides" src="treadmill.jpg" style="width:100%">
+      </div>
+    </div>
+
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName('mySlides');
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 5000);
+      }
+    </script>
+
+<!--
     <div id="endlink">
       <a href="#theend">Back to Top</a>
     </div>
@@ -152,5 +187,6 @@
         <li><a href="http://instagram.com/tysonbriana"><i class="fa fa-instagram"></i></a></li>
       </ul>
     </div>
+  -->
   </body>
 </html>
