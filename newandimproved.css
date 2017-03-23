@@ -136,22 +136,67 @@ h3 {
 
 /* Responsive Image Gallery*/
 
+#boston {
+  background: url("boston.png") no-repeat;
+  background-size: cover;
+}
+
+#nyc {
+  background: url("nyc.png") no-repeat;
+  background-size: cover;
+}
+
+#chicago {
+  background: url("chicago.png") no-repeat;
+  background-size: cover;
+}
+
+#hollywood {
+  background: url("hollywood.jpg") no-repeat;
+  background-size: cover;
+}
+
+#miami {
+  background: url("miami.png") no-repeat;
+  background-size: cover;
+}
+
+#mexico {
+  background: url("Mexico.jpg") no-repeat;
+  background-size: cover;
+}
+
+#dc {
+  background: url("miami.png") no-repeat;
+  background-size: cover;
+}
+
+#philly {
+  background: url("philadelphia.png") no-repeat;
+  background-size: cover;
+}
+
 div.gallery {
   border: 1px solid #ccc;
+  height: 215px;
 }
 
 div.gallery:hover {
   border: 1px solid #777;
 }
 
-div.gallery img {
+div.gallery a {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255,255,255, .7);
 }
 
 * {
@@ -159,20 +204,13 @@ div.desc {
 }
 
 .responsive {
+  position: relative;
   padding: 0 6px;
   float:left;
   width: 24.99999%;
   margin-top: 10px;
 }
 
-/*
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-*/
 @@media all and (max-width: 943px) and (min-width: 794px) {
   .responsive  {
     padding: 0 6px;
