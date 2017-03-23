@@ -225,6 +225,7 @@ div.desc {
 #endlink{
   text-align: center;
   margin-top: 75px;
+  margin-bottom: 10px;
 }
 
 #endlink a:link, a:visited {
@@ -239,19 +240,13 @@ div.desc {
   color: #8B0000;
 }
 
-div.social ul {
-	overflow: auto;
-}
-
-div.social ul li {
-	list-style-type: none;
-	float: left;
+.footer {
+  text-align: center;
 }
 
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
   text-decoration: none;
   border-radius: 50%;
   margin-top: -30px;
@@ -262,15 +257,11 @@ div.social ul li {
 }
 
 .fa-facebook {
-  background: #transparent;
+  background: transparent;
   color: #8B0000;
-  position: relative;
-    left: 445px;
 }
 
 .fa-instagram {
-  background: #transparent;
+  background: transparent;
   color: #8B0000;
-  position: relative;
-    left: 465px;
 }
